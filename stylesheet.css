@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Suranna&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+body{
+
+    color: #333;
+    font-size: 18px;
+    font-family: "ABeeZee";
+}
+a {
+  color: #004d40;
+}
+
+#title
+{
+    /* background-image:url(bg-image.jpg); */
+     background-color: #52cb69; 
+    /* background-position: center;
+    background-repeat: no-repeat; */
+    background-attachment: fixed;
+    background-size: cover;
+    height: 700px;
+}
+.heading
+{
+    text-align: center;
+    color: white;
+    font-family: "Suranna";
+    font-size:x-large;
+}
+.name
+{
+    padding-top: 15%;
+    font-size: 82px;
+}
+h5
+{
+    font-size: 1.64rem;
+    margin: 0.82rem 0 0.656rem 0;
+}
+.readme {
+    position: relative;
+    padding: 11px 35px;
+    background: #fff;
+    color: #00796b;
+    border: 2px solid #fff;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
+  .contactme {
+    position: relative;
+    padding: 11px 35px;
+    background: none;
+    color: #fff;
+    border: 2px solid #fff;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-top: 1.5em;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }  
+  .contactme:hover{
+    color: #00796b;
+    background-color: white;
+  }
+  .container
+  {
+    width: 95%;
+  }
+  .buttons
+  {
+    text-align: center;
+    /* padding-left: 25em; */
+  }
+
+
+
+
+
+/* navbar */
+.navbar
+{
+    background-color: #094b37;
+    padding-bottom: 4.5rem;
+    
+} 
+.navbar-brand
+{
+    font-family: Suranna;
+    font-size: 9.5rem;
+    font-weight: bolder;
+    padding: 1%;
+    
+}
+a.navbar-brand
+{
+    color: white;
+    font-family: ABeeZee;
+}
+.nav-item{
+    padding: 0 18px;
+    font-family: ABeeZee;
+}
+ul
+{
+    color: white;
+    font-size: 1.2rem;
+    font-family: ABeeZee;
+}
+a.nav-link
+{
+    color: white;
+    font-style: oblique;
+}
+
+
+
+/* Contact Me */
+
+.cta 
+{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 30%;
+    
+    
+}
+.cta :hover
+{
+    color: #00796b;
+    background-color: rgb(246, 238, 238);
+}
+.social-image
+{
+    size: 20px;
+    padding: 10% 17% 20%;
+    display: block;
+    box-sizing: content-box;
+}
+
+
+
+
+
+/* about section  */
+#about-section
+{
+    text-align: center;
+}
+.teal
+{
+    background-color: #008073;
+    background-position-x: right;
+}
+.section {
+    padding-bottom: 30px;
+    padding-top: 0;
+    position: relative;
+  }
+.white-text
+{
+    color: #fff;
+}
+
+h3 {
+    font-weight: 200;
+    margin-bottom: 60px;
+    margin-top: 0;
+    padding: 30px 40px;
+    text-transform: uppercase;
+  }
+  .section {
+    padding-bottom: 30px;
+    padding-top: 0;
+    position: relative;
+  }
+
+.about-iamge{
+    width: 25%;
+    /* padding: 5% 7% 5% 20%; */
+}
+.pr,h4
+{
+    font-size: -webkit-xxx-large;
+    font-family: 'Suranna';
+    font-weight: 800;
+    font-style: oblique;
+}
+.about{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 5% 20% 0% 0%;
+    font-size: larger;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+
+/* Personal skills */
+.card {
+  margin-bottom: 60px;
+}
+.card-action span {
+    font-size: 85%;
+    color: #666;
+  }
+  
+  .card ul {
+    margin-bottom: 0;
+  }
+  
+  .card ul li {
+    line-height: 200%;
+    list-style-type: disc;
+    margin-left: 24px;
+  }
+  
+  .card ul li li {
+    color: #666;
+    font-size: 13px;
+  }
+  
+  .card .card-title {
+    font-size: 24px;
+  }
+  
+  .card .card-content .card-title {
+    line-height: 2.5rem;
+  }
+  
+  .card i.right {
+    margin-left: 10px;
+  }
+  
+  a.hoverline {
+    border-bottom: 3px solid transparent !important;
+    padding: 3px 3px 0 3px;
+    transition: 0.25s all;
+    -moz-transition: 0.25s all;
+    -webkit-transition: 0.25s all;
+  }
+  
+  a.hoverline:hover {
+    border-bottom: 3px solid #004d40 !important;
+  }
+#skills .card.large {
+    height: 360px;
+  }
+  
+  #skills h4 {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+  }
+  
+  #skills .col img.responsive-img {
+    margin: 0 auto;
+    max-height: 100px;
+    padding-bottom: 10px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+  }
+  .card.large .card-content p {
+    color: inherit;
+    margin: 0;
+    padding: 30px 0;
+  }
+  
+  #experience .card-content .row {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .card.large .card-image {
+    height: 230px;
+  }
+  
+  .card.large .card-content {
+    height: auto;
+  }
+  
+  .card.medium .card-image {
+    height: 240px;
+  }
+  
+  .card-action a.btn-floating {
+    margin-bottom: 0;
+  }
+
+
+
+
+  /* Education  */
+  ul
+  {
+    color: black;
+  }
+  .text-center {
+    text-align: center;
+  }
+  main {
+    background: url(bg.png) repeat;
+    
+  }
+  .container {
+  width: 95%;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.teal-text {
+  color: #008073 !important;
+}
+.teal {
+  background-color: #008073 !important;
+}
+  span {
+    display: block;
+    font-size: 14px;
+  }
+
+  .card .role {
+    font-size: 1.25rem;
+    position: absolute;
+    right: 38px;
+    top: 35px;
+  }
+  
+  .card li a {
+    margin-right: 0;
+    color: #333;
+    border-bottom: 2px solid #ffab40;
+  }
+  
+  .card li a:hover {
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .card .card-content {
+    padding-bottom: 30px;
+  }
+  
+  .card .card-content p {
+    padding: 5px 0 0;
+  }
+  
+  .card h5 {
+    font-size: 1.5rem;
+    margin-bottom: -0.5rem;
+    margin-top: 2rem;
+  }
+  
+  .card h6 {
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+    text-transform: uppercase;
+  }
+  .card-action span {
+    font-size: 85%;
+    color: #666;
+  }
+  
+  .card ul {
+    margin-bottom: 0;
+  }
+  
+  .card ul li {
+    line-height: 200%;
+    list-style-type: disc;
+    margin-left: 24px;
+  }
+  
+  .card ul li li {
+    color: #666;
+    font-size: 13px;
+  }
+  
+  .card .card-title {
+    font-size: 24px;
+  }
+  
+  .card .card-content .card-title {
+    line-height: 2.5rem;
+  }
+  
+  .card i.right {
+    margin-left: 10px;
+  }
+  
+  a.hoverline {
+    border-bottom: 3px solid transparent !important;
+    padding: 3px 3px 0 3px;
+    transition: 0.25s all;
+    -moz-transition: 0.25s all;
+    -webkit-transition: 0.25s all;
+  }
+  a.hoverline:hover {
+    border-bottom: 3px solid #004d40 !important;
+  }
+  
+  #skills .card.large {
+    height: 360px;
+  }
+  
+  #skills h4 {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+  }
+  
+  #skills .col img.responsive-img {
+    margin: 0 auto;
+    max-height: 100px;
+    padding-bottom: 10px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+  }
+  
+  .card.large .card-content p {
+    color: inherit;
+    margin: 0;
+    padding: 30px 0;
+  }
+  #contact a:not(.btn-floating) {
+    text-align: center;
+    display: block;
+    left: initial;
+    bottom: initial;
+  }
+  #contact a.btn-floating.btn-large {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #contact a:not(.btn-floating) {
+    bottom: 6px;
+    left: 20px;
+    position: relative;
+  }
+  #contact a:not(.btn-floating) {
+    bottom: 6px;
+    left: 20px;
+    position: relative;
+  }
+  .btn-floating.btn-large {
+    width: 55.5px;
+    height: 55.5px;
+}
